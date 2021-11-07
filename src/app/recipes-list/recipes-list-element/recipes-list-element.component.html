@@ -1,0 +1,18 @@
+<li style="margin: 10px 0">
+  <mat-card>
+    <mat-card-title [routerLink]="[index]" style="cursor: pointer">{{
+      recipe.name
+    }}</mat-card-title>
+    <mat-card-actions>
+      <button
+        type="button"
+        mat-raised-button
+        color="primary"
+        (click)="onEdit()"
+      >
+        EDIT
+      </button>
+      <button type="button" mat-raised-button color="warn">DELETE</button>
+    </mat-card-actions>
+  </mat-card>
+</li>

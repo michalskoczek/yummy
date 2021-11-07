@@ -1,0 +1,21 @@
+<h2 class="recipes-list-title">List of recipes</h2>
+
+<div class="recipes-list__container">
+  <button mat-raised-button color="basics" routerLink="new">New recipe</button>
+
+  <form class="recipes-list__search-form">
+    <mat-form-field class="recipes-list__search" appearance="fill">
+      <mat-label>Search recipe</mat-label>
+      <input matInput placeholder="Ex. Pizza" />
+    </mat-form-field>
+  </form>
+
+  <ul style="list-style: none">
+    <app-recipes-list-element
+      *ngFor="let recipeElement of recipesList; let i = index"
+      [recipe]="recipeElement"
+      [index]="i"
+    >
+    </app-recipes-list-element>
+  </ul>
+</div>

@@ -1,0 +1,17 @@
+.recipes-list-title {
+  border-bottom: 2px solid #1b4cbf3d;
+}
+
+.recipes-list__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes-list__search-form {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.recipes-list__search {
+  width: 100%;
+}

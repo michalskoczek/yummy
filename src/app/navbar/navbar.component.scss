@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  background-color: #1b57e2;
+
+  &__title {
+    align-self: center;
+    padding: 0 20px;
+    margin: 0;
+    color: #fff;
+  }
+
+  &__author-information {
+    background: transparent;
+    color: #fff;
+    padding: 0 20px;
+    margin: auto 30px auto 0;
+    border: none;
+    cursor: pointer;
+  }
+}
