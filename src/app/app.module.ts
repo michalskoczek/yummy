@@ -15,24 +15,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
-import { RecipesListComponent } from './recipes-list/recipes-list.component';
 import { RecipeComponent } from './recipe/recipe.component';
-import { RecipesListElementComponent } from './recipes-list/recipes-list-element/recipes-list-element.component';
 import { MainComponent } from './main/main.component';
-import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
-import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component';
 import { NavbarMaterialDialogComponent } from './navbar/navbar-material-dialog/navbar-material-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RecipesListComponent,
     RecipeComponent,
-    RecipesListElementComponent,
     MainComponent,
-    RecipeDetailComponent,
-    RecipeEditComponent,
     NavbarMaterialDialogComponent,
   ],
   entryComponents: [NavbarMaterialDialogComponent],
