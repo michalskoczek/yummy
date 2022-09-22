@@ -1,26 +1,33 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { RecipeService } from '../recipe/recipe.service';
-
-import { Recipe } from '../shared/recipe.model';
+import { Recipe } from '@common/interfaces/recipe.interface.js';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ApiService {
-  url: string = 'https://crudcrud.com/api/a7cf7999cc26467d99b4994c2441dfaa';
+ private readonly url: string = 'https://crudcrud.com/api/c275883b5b81494a8600eae61ad3193f';
 
-  constructor(private http: HttpClient, private recipeService: RecipeService) {}
+  constructor(private http: HttpClient) {}
 
-  createRecipe(recipe: Recipe) {
-    this.http
-      .post(`${this.url}/recipe`, recipe)
-      .subscribe((responseData) => console.log(responseData));
+  postRecipe(body: Recipe): Observable<Recipe> {
+    return this.http.post<Recipe>(`${this.url}/recipes`, body);
   }
 
-  fetchRecipes() {
-    this.http.get<Recipe[]>(`${this.url}/recipe`).subscribe((recipes) => {
-      this.recipeService.setRecipes(recipes);
-    });
+  getRecipes(): Observable<Recipe[]> {
+    return this.http.get<Recipe[]>(this.url);
+  }
+
+  getSingleRecipe(id: number): Observable<Recipe> {
+    return this.http.get<Recipe>(`${this.url}/${id}`);
+  }
+
+  putRecipe(id: number, body: any): Observable<any> {
+    return this.http.put(`${this.url}/${id}`, body);
+  }
+
+  deleteRecipe(id: number): Observable<any> {
+    return this.http.delete(`${this.url}/${id}`);
   }
 }
