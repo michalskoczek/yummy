@@ -103,9 +103,18 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+          }
         }
       }
     }
   },
-  "defaultProject": "recipes-app"
+  "defaultProject": "recipes-app",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
