@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ApiService {
- private readonly url: string = 'https://crudcrud.com/api/c275883b5b81494a8600eae61ad3193f';
+  private readonly url: string =
+    'https://crudcrud.com/api/c275883b5b81494a8600eae61ad3193f';
 
   constructor(private http: HttpClient) {}
 
