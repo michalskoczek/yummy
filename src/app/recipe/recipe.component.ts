@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-recipe',
@@ -6,8 +6,4 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   styleUrls: ['./recipe.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RecipeComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class RecipeComponent {}

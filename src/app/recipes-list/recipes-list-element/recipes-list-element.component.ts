@@ -1,13 +1,6 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  Input,
-  OnInit,
-} from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { RecipeEditService } from 'src/app/recipe/recipe-edit/recipe-edit.service';
-import { RecipeService } from 'src/app/recipe/recipe.service';
-import { Recipe } from 'src/app/shared/recipe.model';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
 
 @Component({
   selector: 'app-recipes-list-element',
@@ -15,22 +8,10 @@ import { Recipe } from 'src/app/shared/recipe.model';
   styleUrls: ['./recipes-list-element.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RecipesListElementComponent implements OnInit {
-  @Input() recipe: Recipe;
-  @Input() index: number;
+export class RecipesListElementComponent {
+  constructor(private matDialog: MatDialog) {}
 
-  constructor(
-    private recipeEditService: RecipeEditService,
-    private activatedRoute: ActivatedRoute,
-    private recipeService: RecipeService
-  ) {
-    this.recipe = this.recipeService.initRecipe();
-    this.index = 1;
-  }
-
-  ngOnInit(): void {}
-
-  onEdit() {
-    this.recipeEditService.onEdit(this.index, this.activatedRoute);
+  public deleteRecipe(): void {
+    this.matDialog.open(DeleteDialogComponent);
   }
 }

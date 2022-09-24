@@ -18,6 +18,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RecipeComponent } from './recipe/recipe.component';
 import { MainComponent } from './main/main.component';
 import { NavbarMaterialDialogComponent } from './navbar/navbar-material-dialog/navbar-material-dialog.component';
+import { RecipesListComponent } from './recipes-list/recipes-list.component';
+import { RecipesListElementComponent } from './recipes-list/recipes-list-element/recipes-list-element.component';
+import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
+import { DeleteDialogComponent } from './recipes-list/recipes-list-element/delete-dialog/delete-dialog.component';
+import { AddRecipeComponent } from './recipe/add-recipe/add-recipe.component';
+import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +32,15 @@ import { NavbarMaterialDialogComponent } from './navbar/navbar-material-dialog/n
     RecipeComponent,
     MainComponent,
     NavbarMaterialDialogComponent,
+    RecipesListComponent,
+    RecipesListElementComponent,
+    RecipeComponent,
+    RecipeDetailComponent,
+    DeleteDialogComponent,
+    AddRecipeComponent,
+    RecipeEditComponent,
   ],
-  entryComponents: [NavbarMaterialDialogComponent],
+  // entryComponents: [NavbarMaterialDialogComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

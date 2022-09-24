@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { NavbarMaterialDialogComponent } from './navbar-material-dialog/navbar-material-dialog.component';
 
@@ -8,11 +8,10 @@ import { NavbarMaterialDialogComponent } from './navbar-material-dialog/navbar-m
   styleUrls: ['./navbar.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
   constructor(public dialog: MatDialog) {}
 
   openDialog() {
     this.dialog.open(NavbarMaterialDialogComponent);
   }
-  ngOnInit(): void {}
 }
