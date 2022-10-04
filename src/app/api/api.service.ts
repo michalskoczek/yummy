@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
   private readonly url: string =
-    'https://crudcrud.com/api/c275883b5b81494a8600eae61ad3193f';
+    'https://crudcrud.com/api/c805831c3511400da98131e5a078dc94';
 
   constructor(private http: HttpClient) {}
 
@@ -17,7 +17,7 @@ export class ApiService {
   }
 
   getRecipes(): Observable<Recipe[]> {
-    return this.http.get<Recipe[]>(this.url);
+    return this.http.get<Recipe[]>(`${this.url}/recipes`);
   }
 
   getSingleRecipe(id: number): Observable<Recipe> {

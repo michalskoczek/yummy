@@ -41,7 +41,6 @@ import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component'
     AddRecipeComponent,
     RecipeEditComponent,
   ],
-  // entryComponents: [NavbarMaterialDialogComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
