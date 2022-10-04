@@ -1,1 +1,37 @@
-<p>add-recipe works!</p>
+<h2 class="title">Create new recipe</h2>
+
+<section class="form">
+  <form>
+    <div class="name-desc">
+      <mat-form-field appearance="fill" class="name">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="desc">
+        <mat-label>Description</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+    </div>
+
+    <h3>Preparation time</h3>
+    <mat-form-field appearance="fill" class="mr">
+      <mat-label>Hours</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Minutes</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+
+    <h3>Ingredients</h3>
+    <mat-form-field appearance="fill" class="mr">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Quantity</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+  </form>
+</section>
