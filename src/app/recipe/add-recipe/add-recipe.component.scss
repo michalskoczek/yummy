@@ -1,0 +1,22 @@
+.title {
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    .name-desc {
+        display: flex;
+        flex-direction: column;
+        
+        .name, .desc {
+            width: 500px;
+        }
+    }
+
+    .mr {
+        margin-right: 20px;
+    }
+}
+

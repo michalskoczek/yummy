@@ -1,2 +1,34 @@
 <h2>Recipe detail</h2>
-<p>new recipe</p>
+
+<h3>Recipe Name</h3>
+<span>Preparation time</span>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, quasi
+  praesentium possimus in minus quae repellendus ex, molestiae perferendis
+  provident ipsam odit atque. Numquam consequatur ipsum aliquid praesentium,
+  asperiores rem?
+</p>
+
+<h4>Ingredients</h4>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
+  <!-- Position Column -->
+  <ng-container matColumnDef="demo-position">
+    <th mat-header-cell *matHeaderCellDef>No.</th>
+    <td mat-cell *matCellDef="let element">{{ element.position }}</td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="demo-name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="demo-weight">
+    <th mat-header-cell *matHeaderCellDef>Weight</th>
+    <td mat-cell *matCellDef="let element">{{ element.weight }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
