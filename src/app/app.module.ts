@@ -11,6 +11,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.comp
 import { DeleteDialogComponent } from './recipes-list/recipes-list-element/delete-dialog/delete-dialog.component';
 import { AddRecipeComponent } from './recipe/add-recipe/add-recipe.component';
 import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component';
+import { SnackbarComponent } from './common/components/snackbar/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,7 @@ import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component'
     DeleteDialogComponent,
     AddRecipeComponent,
     RecipeEditComponent,
+    SnackbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +58,7 @@ import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component'
     MatInputModule,
     MatCardModule,
     MatTableModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
