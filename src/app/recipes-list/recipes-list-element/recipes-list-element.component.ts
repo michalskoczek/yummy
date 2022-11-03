@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { Recipe } from '@common/interfaces/recipe.interface';
 import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
 
 @Component({
@@ -9,6 +10,8 @@ import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RecipesListElementComponent {
+  @Input() recipe!: Recipe;
+
   constructor(private matDialog: MatDialog) {}
 
   public deleteRecipe(): void {

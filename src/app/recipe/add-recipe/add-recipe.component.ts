@@ -1,8 +1,8 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
-import { catchError, tap } from 'rxjs';
+import { SnackbarService } from '@common/service/snackbar.service';
+import { catchError } from 'rxjs';
 import { ApiService } from 'src/app/api/api.service';
 
 @Component({
@@ -13,7 +13,10 @@ import { ApiService } from 'src/app/api/api.service';
 export class AddRecipeComponent implements OnInit {
   public recipeForm!: FormGroup;
 
-  constructor(private apiService: ApiService, private snackbar: MatSnackBar) {}
+  constructor(
+    private apiService: ApiService,
+    private snackbarService: SnackbarService
+  ) {}
 
   ngOnInit(): void {
     this.recipeForm = this.createForm();
@@ -22,13 +25,13 @@ export class AddRecipeComponent implements OnInit {
   public onSubmit(): void {
     this.apiService
       .postRecipe(this.recipeForm.value)
-      .pipe(
-        tap(r => console.log(r)),
-        catchError((err: HttpErrorResponse) => err.message)
-      )
+      .pipe(catchError((err: HttpErrorResponse) => err.message))
       .subscribe(_ => {
-        console.log('success alert => poszło');
-        this.snackbar.open('Dodałeś nowy przepis', 'close', { duration: 2000 });
+        this.snackbarService.openSnackBar(
+          'New recipe added!',
+          '',
+          'snackbar-success'
+        );
       });
   }
 

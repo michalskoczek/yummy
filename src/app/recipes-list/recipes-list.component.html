@@ -9,8 +9,10 @@
 
 <section class="recipes-list__container">
   <ul style="list-style: none">
-    <li>
-      <app-recipes-list-element></app-recipes-list-element>
-    </li>
+    <ng-container *ngFor="let recipe of recipes">
+      <li>
+        <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
+      </li>
+    </ng-container>
   </ul>
 </section>
