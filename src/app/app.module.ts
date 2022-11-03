@@ -26,7 +26,6 @@ import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.comp
 import { DeleteDialogComponent } from './recipes-list/recipes-list-element/delete-dialog/delete-dialog.component';
 import { AddRecipeComponent } from './recipe/add-recipe/add-recipe.component';
 import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component';
-import { SnackbarComponent } from './common/components/snackbar/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +41,6 @@ import { SnackbarComponent } from './common/components/snackbar/snackbar/snackba
     DeleteDialogComponent,
     AddRecipeComponent,
     RecipeEditComponent,
-    SnackbarComponent,
   ],
   imports: [
     BrowserModule,
