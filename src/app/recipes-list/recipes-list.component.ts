@@ -1,27 +1,15 @@
-import { HttpErrorResponse } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { Recipe } from '@common/interfaces/recipe.interface';
-import { tap } from 'rxjs';
-import { ApiService } from '../api/api.service';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RecipeModel } from '@common/../models/recipe.interface';
+import { Observable } from 'rxjs';
+import { ApiService } from '../services/api.service';
 @Component({
   selector: 'app-recipes-list',
   templateUrl: './recipes-list.component.html',
   styleUrls: ['./recipes-list.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RecipesListComponent implements OnInit {
-  public recipes: Recipe[] = [];
+export class RecipesListComponent {
+  constructor(private _apiService: ApiService) {}
 
-  constructor(private apiService: ApiService) {}
-
-  ngOnInit(): void {
-    this.getRecipes();
-  }
-
-  private getRecipes(): void {
-    this.apiService
-      .getRecipes()
-      .pipe(tap(recipes => (this.recipes = recipes)))
-      .subscribe();
-  }
+  readonly recipes$: Observable<RecipeModel[]> = this._apiService.getRecipes();
 }

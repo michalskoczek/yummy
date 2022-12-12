@@ -1,0 +1,26 @@
+<ng-container *ngIf="recipesDetails$ | async as details; else loading">
+  <mat-card>
+    <mat-card-title>
+      <h2>
+        {{ details.name }}
+      </h2>
+      <span
+        >Preparation time in minutes:
+        {{ details.preparationTimeInMinutes }}</span
+      >
+    </mat-card-title>
+    <mat-card-content>
+      <p>Description: {{ details.description }}</p>
+      <ng-container *ngIf="details.ingredients as ingredient; else empty">
+        <p>Ingredients</p>
+        <ul>
+          <li>{{ ingredient.name }} x {{ ingredient.quantity }}</li>
+        </ul>
+      </ng-container>
+      <ng-template #empty> Oops...Where are ingredients?! </ng-template>
+    </mat-card-content>
+  </mat-card>
+</ng-container>
+<ng-template #loading>
+  <mat-spinner></mat-spinner>
+</ng-template>

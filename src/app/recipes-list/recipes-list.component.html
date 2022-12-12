@@ -9,7 +9,7 @@
 
 <section class="recipes-list__container">
   <ul style="list-style: none">
-    <ng-container *ngFor="let recipe of recipes">
+    <ng-container *ngFor="let recipe of recipes$ | async as recipesList">
       <li>
         <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
       </li>

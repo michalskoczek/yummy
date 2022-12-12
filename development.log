@@ -1,0 +1,96 @@
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipe-details/recipe-details.component.html",
+		"position": 859
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "nomPWuO46Y",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipe-details/recipe-details.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipe-details/recipe-details.component.html",
+		"position": 859
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipeDetailsComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipeDetailsComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}

@@ -18,14 +18,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RecipeComponent } from './recipe/recipe.component';
-import { MainComponent } from './main/main.component';
+import { MainComponent } from './components/main/main.component';
 import { NavbarMaterialDialogComponent } from './navbar/navbar-material-dialog/navbar-material-dialog.component';
 import { RecipesListComponent } from './recipes-list/recipes-list.component';
 import { RecipesListElementComponent } from './recipes-list/recipes-list-element/recipes-list-element.component';
-import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
 import { DeleteDialogComponent } from './recipes-list/recipes-list-element/delete-dialog/delete-dialog.component';
 import { AddRecipeComponent } from './recipe/add-recipe/add-recipe.component';
-import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component';
+import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -37,10 +37,9 @@ import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component'
     RecipesListComponent,
     RecipesListElementComponent,
     RecipeComponent,
-    RecipeDetailComponent,
     DeleteDialogComponent,
     AddRecipeComponent,
-    RecipeEditComponent,
+    RecipeDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +56,7 @@ import { RecipeEditComponent } from './recipe/recipe-edit/recipe-edit.component'
     MatCardModule,
     MatTableModule,
     MatSnackBarModule,
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,9 +1,9 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { SnackbarService } from '@common/service/snackbar.service';
+import { SnackbarService } from '../../services/snackbar.service';
 import { catchError } from 'rxjs';
-import { ApiService } from 'src/app/api/api.service';
+import { ApiService } from 'src/app/services/api.service';
 
 @Component({
   selector: 'app-add-recipe',
@@ -49,7 +49,7 @@ export class AddRecipeComponent implements OnInit {
       ]),
       preparationTimeInMinutes: new FormControl(null, [Validators.required]),
       ingredients: new FormGroup({
-        ingredientName: new FormControl(null),
+        name: new FormControl(null),
         quantity: new FormControl(null),
       }),
     });

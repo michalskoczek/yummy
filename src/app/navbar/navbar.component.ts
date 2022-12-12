@@ -11,7 +11,7 @@ import { NavbarMaterialDialogComponent } from './navbar-material-dialog/navbar-m
 export class NavbarComponent {
   constructor(public dialog: MatDialog) {}
 
-  openDialog() {
+  public openDialog() {
     this.dialog.open(NavbarMaterialDialogComponent);
   }
 }
