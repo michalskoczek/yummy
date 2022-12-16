@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
-import { RecipeModel } from '../../models/recipe.interface';
+import { RecipeModel } from '../../../models/recipe.interface';
 
 @Component({
   selector: 'app-recipes-list-element',

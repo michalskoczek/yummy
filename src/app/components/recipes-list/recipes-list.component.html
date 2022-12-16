@@ -8,8 +8,8 @@
 </mat-form-field>
 
 <section class="recipes-list__container">
-  <ul style="list-style: none">
-    <ng-container *ngFor="let recipe of recipes$ | async as recipesList">
+  <ul>
+    <ng-container *ngFor="let recipe of recipes$ | async">
       <li>
         <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
       </li>

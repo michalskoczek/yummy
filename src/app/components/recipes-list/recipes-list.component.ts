@@ -1,7 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RecipeModel } from '@common/../models/recipe.interface';
 import { Observable } from 'rxjs';
-import { ApiService } from '../services/api.service';
+import { ApiService } from '../../services/api.service';
+
 @Component({
   selector: 'app-recipes-list',
   templateUrl: './recipes-list.component.html',
