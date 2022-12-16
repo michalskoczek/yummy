@@ -1,0 +1,18 @@
+<a mat-raised-button class="new-recipe" routerLink="new">New recipe</a>
+
+<h2 class="recipes-list-title">List of recipes</h2>
+
+<mat-form-field class="recipes-list__search">
+  <mat-label>Search</mat-label>
+  <input type="text" matInput />
+</mat-form-field>
+
+<section class="recipes-list__container">
+  <ul>
+    <ng-container *ngFor="let recipe of recipes$ | async">
+      <li>
+        <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
+      </li>
+    </ng-container>
+  </ul>
+</section>

@@ -1,0 +1,9 @@
+<mat-card class="recipe-element-container">
+  <mat-card-title class="recipe-name">
+    <a routerLink="{{ recipe._id }}">{{ recipe.name }}</a>
+  </mat-card-title>
+  <mat-card-actions align="end">
+    <a mat-raised-button color="primary" class="buttons__edit" routerLink="recipe-name/edit"> Edit </a>
+    <button mat-raised-button color="warn" (click)="deleteRecipe()" class="buttons__delete">Delete</button>
+  </mat-card-actions>
+</mat-card>
