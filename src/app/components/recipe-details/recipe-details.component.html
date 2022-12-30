@@ -2,21 +2,30 @@
   <mat-card>
     <mat-card-header>
       <mat-card-title>{{ details.name }}</mat-card-title>
-      <mat-card-subtitle>Preparation time in minutes: {{ details.preparationTimeInMinutes }}</mat-card-subtitle>
+      <mat-card-subtitle
+        >Preparation time (HH:mm):
+        {{ details.preparationTimeInMinutes * 1000 * 60 | date: 'HH:mm':'UTC' }}</mat-card-subtitle
+      >
     </mat-card-header>
     <mat-card-content>
       <p>
         Description: <br />
         {{ details.description }}
       </p>
-      <ng-container *ngIf="details.ingredients as ingredient; else empty">
+      <ng-container *ngIf="details.ingredients as ingredients; else empty">
         <p>Ingredients</p>
         <ul>
-          <li>{{ ingredient.name }} x {{ ingredient.quantity }}</li>
+          <ng-container *ngFor="let ingredient of ingredients">
+            <li>{{ ingredient.name }} x {{ ingredient.quantity }}</li>
+          </ng-container>
         </ul>
       </ng-container>
       <ng-template #empty> Oops...Where are ingredients?!</ng-template>
     </mat-card-content>
+    <mat-card-actions>
+      <a routerLink="edit" mat-button>Edit</a>
+      <button mat-button (click)="deleteRecipe()">Delete</button>
+    </mat-card-actions>
   </mat-card>
 </ng-container>
 <ng-template #loading>

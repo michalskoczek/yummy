@@ -21,15 +21,23 @@
     </mat-form-field>
 
     <h3>Ingredients</h3>
-    <div formGroupName="ingredients">
-      <mat-form-field appearance="fill" class="mr">
-        <mat-label>Name</mat-label>
-        <input matInput type="text" formControlName="name" />
-      </mat-form-field>
-      <mat-form-field appearance="fill">
-        <mat-label>Quantity</mat-label>
-        <input matInput type="text" formControlName="quantity" />
-      </mat-form-field>
+    <div formArrayName="ingredients">
+      <ng-container *ngFor="let ingredient of ingredients.controls; let index = index">
+        <ng-container [formGroupName]="index">
+          <div>
+            <mat-form-field appearance="fill" class="mr">
+              <mat-label>Name</mat-label>
+              <input matInput type="text" formControlName="name" />
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+              <mat-label>Quantity</mat-label>
+              <input matInput type="text" formControlName="quantity" />
+            </mat-form-field>
+          </div>
+        </ng-container>
+      </ng-container>
+
+      <button type="button" (click)="addNextIngredient()" mat-button>Add ingredient <mat-icon>add</mat-icon></button>
     </div>
 
     <button type="submit" [disabled]="recipeForm.invalid" mat-raised-button color="primary">Create</button>
