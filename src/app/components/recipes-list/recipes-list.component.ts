@@ -1,7 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RecipeModel } from '@common/../models/recipe.interface';
-import { Observable } from 'rxjs';
+import { FormControl, FormGroup } from '@angular/forms';
+import { combineLatest, debounceTime, map, Observable, startWith } from 'rxjs';
 import { ApiService } from '../../services/api.service';
+import { RecipeModel } from '../../models/recipe.interface';
 
 @Component({
   selector: 'app-recipes-list',
@@ -10,7 +11,21 @@ import { ApiService } from '../../services/api.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RecipesListComponent {
+  public searchForm: FormGroup = new FormGroup({
+    search: new FormControl(null),
+  });
+
   constructor(private _apiService: ApiService) {}
 
-  readonly recipes$: Observable<RecipeModel[]> = this._apiService.getRecipes();
+  private startWith$: Observable<string> = this.searchForm.valueChanges.pipe(
+    map(searchForm => searchForm.search),
+    startWith(''),
+    debounceTime(500)
+  );
+
+  readonly recipes$: Observable<RecipeModel[]> = combineLatest([this._apiService.getRecipes(), this.startWith$]).pipe(
+    map(([recipes, startWith]: [RecipeModel[], string]) => {
+      return recipes.filter((recipe: RecipeModel) => recipe.name?.toLowerCase().startsWith(startWith.toLowerCase()));
+    })
+  );
 }

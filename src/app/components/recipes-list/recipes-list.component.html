@@ -2,17 +2,24 @@
 
 <h2 class="recipes-list-title">List of recipes</h2>
 
-<mat-form-field class="recipes-list__search">
+<mat-form-field [formGroup]="searchForm" class="recipes-list__search">
   <mat-label>Search</mat-label>
-  <input type="text" matInput />
+  <input type="text" formControlName="search" matInput />
 </mat-form-field>
 
 <section class="recipes-list__container">
-  <ul>
-    <ng-container *ngFor="let recipe of recipes$ | async">
-      <li>
-        <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
-      </li>
+  <ul *ngIf="recipes$ | async as recipes">
+    <ng-container *ngIf="recipes.length > 0; else emptyState">
+      <ng-container *ngFor="let recipe of recipes">
+        <li>
+          <app-recipes-list-element [recipe]="recipe"></app-recipes-list-element>
+        </li>
+      </ng-container>
     </ng-container>
   </ul>
+  <ng-template #emptyState>
+    <mat-card>
+      <mat-card-title> There is no data. </mat-card-title>
+    </mat-card>
+  </ng-template>
 </section>

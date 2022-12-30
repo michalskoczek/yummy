@@ -262,3 +262,1201 @@
 	"level": "info",
 	"message": "[API] Response ok: entity/actions"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "9FTV_hyVCY",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "AIL8QrsSio",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "AIL8QrsSio",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "AIL8QrsSio",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256,
+		"propertyName": "searchForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "AIL8QrsSio",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[error] [API]: Error formProperty.getArguments(...)[0].getProperties is not a function: {
+	"loggerData": {
+		"action": "angular-component/templates/add-form",
+		"params": {
+			"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"position": 256,
+			"propertyName": "searchForm",
+			"formTemplate": "form"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+			},
+			"userContext": {
+				"id": "LFNFU18X6o",
+				"correlationId": "AIL8QrsSio",
+				"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: formProperty.getArguments(...)[0].getProperties is not a function\n    at addFormToTemplateCommandHandler (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:5685:55)\n    at async dispatchCommand (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8488:26)\n    at async callCommandCli (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8532:20)\n    at async callHandler (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:16678:27)",
+	"level": "error",
+	"message": "[API]: Error formProperty.getArguments(...)[0].getProperties is not a function"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "07h1vMTbR8",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "07h1vMTbR8",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "nUmbABh_Gu",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "nUmbABh_Gu",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "nUmbABh_Gu",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256,
+		"propertyName": "searchForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "nUmbABh_Gu",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[error] [API]: Error formProperty.getArguments(...)[0].getProperties is not a function: {
+	"loggerData": {
+		"action": "angular-component/templates/add-form",
+		"params": {
+			"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"position": 256,
+			"propertyName": "searchForm",
+			"formTemplate": "form"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+			},
+			"userContext": {
+				"id": "LFNFU18X6o",
+				"correlationId": "nUmbABh_Gu",
+				"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: formProperty.getArguments(...)[0].getProperties is not a function\n    at addFormToTemplateCommandHandler (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:5685:55)\n    at async dispatchCommand (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8488:26)\n    at async callCommandCli (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8532:20)\n    at async callHandler (C:\\Users\\Michał\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:16678:27)",
+	"level": "error",
+	"message": "[API]: Error formProperty.getArguments(...)[0].getProperties is not a function"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "14cLl-xcDX",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "layouts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "14cLl-xcDX",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "layouts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "g5hJXrfNOH",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "RecipesListComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "g5hJXrfNOH",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "searchForm",
+			"templateType": "forms",
+			"typeProperties": []
+		},
+		{
+			"label": "recipes$",
+			"templateType": "lists",
+			"typeProperties": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "g5hJXrfNOH",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256,
+		"propertyName": "searchForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app"
+		},
+		"userContext": {
+			"id": "LFNFU18X6o",
+			"correlationId": "g5hJXrfNOH",
+			"clickedPath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[info] [CLI] Calling Command angular-component/templates/add-form: {
+	"funcParams": {
+		"componentHtmlFilePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"position": 256,
+		"propertyName": "searchForm",
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-form"
+}
+[info] [CommandBus]: Dispatching command AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app",
+		"componentTs": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts",
+		"componentHtml": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"className": "RecipesListComponent",
+		"propertyName": "searchForm",
+		"position": 256,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddFormToTemplateCommand"
+}
+[info] [EventBus]: Broadcasting event TemplateAddedEvent: {
+	"type": "TemplateAddedEvent",
+	"payload": {
+		"componentTs": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event TemplateAddedEvent"
+}
+[info] [EventBus]: Broadcasted TemplateAddedEvent: {
+	"event": {
+		"componentTs": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted TemplateAddedEvent"
+}
+[info] [CommandBus]: Handled  AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app",
+		"componentTs": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.ts",
+		"componentHtml": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html",
+		"className": "RecipesListComponent",
+		"propertyName": "searchForm",
+		"position": 256,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddFormToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-form: {
+	"message": "[CLI] Called Command angular-component/templates/add-form",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/templates/add-form: {
+	"result": {
+		"filePath": "C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/components/recipes-list/recipes-list.component.html"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/add-form"
+}
+[info] [CommandBus]: Dispatching command ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/app.module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ImportTemplateModulesCommand"
+}
+[info] [CommandBus]: Handled  ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"C:/Users/Michał/Documents/MWS/Praca/Zadania_rekrutacyjne/House of Angular/HoA-task/recipes-app/src/app/app.module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ImportTemplateModulesCommand"
+}

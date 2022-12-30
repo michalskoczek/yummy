@@ -9,5 +9,5 @@ export interface RecipeModel {
   readonly name: string;
   readonly preparationTimeInMinutes: number;
   readonly description: string;
-  readonly ingredients: Ingredient;
+  readonly ingredients: Ingredient[];
 }

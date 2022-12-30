@@ -1,13 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { RecipeModel } from '@common/../models/recipe.interface';
-import { map, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ApiService {
-  private readonly _url: string = 'https://crudcrud.com/api/aac50fc6a0104115a61c1e5798811c13';
+  private readonly _url: string = 'https://crudcrud.com/api/af2026580c11417583a08bd57fb75f7d';
 
   constructor(private _http: HttpClient) {}
 
